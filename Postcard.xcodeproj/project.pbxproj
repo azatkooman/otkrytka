@@ -13,6 +13,8 @@
 		2965FBE61A3B4D19007C645E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2965FBE51A3B4D19007C645E /* Images.xcassets */; };
 		2965FBE91A3B4D19007C645E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2965FBE71A3B4D19007C645E /* LaunchScreen.xib */; };
 		2965FBF51A3B4D19007C645E /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965FBF41A3B4D19007C645E /* PostcardTests.swift */; };
+		2965FBFF1A3B570E007C645E /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2965FBFE1A3B570E007C645E /* Bo.jpg */; };
+		2965FC011A3B64D0007C645E /* 24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2965FC001A3B64D0007C645E /* 24.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		2965FBEE1A3B4D19007C645E /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2965FBF31A3B4D19007C645E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2965FBF41A3B4D19007C645E /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		2965FBFE1A3B570E007C645E /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		2965FC001A3B64D0007C645E /* 24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 24.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 				2965FBDB1A3B4D18007C645E /* Postcard */,
 				2965FBF11A3B4D19007C645E /* PostcardTests */,
 				2965FBDA1A3B4D18007C645E /* Products */,
+				2965FBE21A3B4D19007C645E /* Main.storyboard */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,7 +84,6 @@
 			children = (
 				2965FBDE1A3B4D18007C645E /* AppDelegate.swift */,
 				2965FBE01A3B4D18007C645E /* ViewController.swift */,
-				2965FBE21A3B4D19007C645E /* Main.storyboard */,
 				2965FBE51A3B4D19007C645E /* Images.xcassets */,
 				2965FBE71A3B4D19007C645E /* LaunchScreen.xib */,
 				2965FBDC1A3B4D18007C645E /* Supporting Files */,
@@ -90,7 +94,9 @@
 		2965FBDC1A3B4D18007C645E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2965FC001A3B64D0007C645E /* 24.jpg */,
 				2965FBDD1A3B4D18007C645E /* Info.plist */,
+				2965FBFE1A3B570E007C645E /* Bo.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -192,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2965FC011A3B64D0007C645E /* 24.jpg in Resources */,
 				2965FBE41A3B4D19007C645E /* Main.storyboard in Resources */,
 				2965FBE91A3B4D19007C645E /* LaunchScreen.xib in Resources */,
+				2965FBFF1A3B570E007C645E /* Bo.jpg in Resources */,
 				2965FBE61A3B4D19007C645E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +250,7 @@
 				2965FBE31A3B4D19007C645E /* Base */,
 			);
 			name = Main.storyboard;
+			path = Postcard;
 			sourceTree = "<group>";
 		};
 		2965FBE71A3B4D19007C645E /* LaunchScreen.xib */ = {
