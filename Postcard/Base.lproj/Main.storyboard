@@ -95,7 +95,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="72" width="286" height="92"/>
+                                    <rect key="frame" x="16" y="72" width="286" height="40"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rRO-ni-i7r">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="137" width="168" height="31"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="24.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FGb-80-TNT">
@@ -112,6 +121,7 @@
                                 <exclude reference="b2a-Cd-kdb"/>
                                 <exclude reference="dcg-v2-M3Y"/>
                                 <exclude reference="g3y-28-svP"/>
+                                <exclude reference="rRO-ni-i7r"/>
                                 <exclude reference="FGb-80-TNT"/>
                             </mask>
                         </variation>
@@ -121,6 +131,7 @@
                                 <include reference="b2a-Cd-kdb"/>
                                 <include reference="dcg-v2-M3Y"/>
                                 <include reference="g3y-28-svP"/>
+                                <include reference="rRO-ni-i7r"/>
                                 <include reference="FGb-80-TNT"/>
                             </mask>
                         </variation>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="hf5-8k-N0V" id="2Zz-pw-DJH"/>
                         <outlet property="mailButton" destination="dcg-v2-M3Y" id="eBC-cY-hxe"/>
                         <outlet property="messageLabel" destination="g3y-28-svP" id="Mi9-UD-cXi"/>
+                        <outlet property="nameLabel" destination="rRO-ni-i7r" id="7yS-Xu-j0g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
